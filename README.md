@@ -22,15 +22,19 @@
 1. **Клонировать репозиторий:**
    ```bash
    git clone https://github.com/dayvoens/news-parser-iXBT.git
+   ```
 
-2. Установка зависимостей
+2. Перейти в папку проекта:
    ```bash
-   pip install BeautifulSoup requests
+   cd news-parser-iXBT
+   ```
 
-3. Прокладываем путь к коду
+3. Установить зависимости:
    ```bash
-   cd путь_к_коду
+   pip install -r requirements.txt
+   ```
 
-4. Запуск кода
+4. Запустить парсер:
    ```bash
    python gamesnews.py
+   ```
